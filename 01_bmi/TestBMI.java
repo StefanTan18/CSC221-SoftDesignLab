@@ -52,18 +52,18 @@ public class TestBMI {
         PersonInfo person2 = new PersonInfo(name2, yearOfBirth2, height2, weight2);
 
         System.out.printf("\n1st instance Output\n");
-        System.out.printf("%16s%s\n", "Full Name: ", person1.getName());
-        System.out.printf("%16s%d\n", "Age: ", person1.calculateAge());
-        System.out.printf("%16s%.2f\n", "Height: ", person1.getHeight());
-        System.out.printf("%16s%.2f\n", "Weight: ", person1.getWeight());
-        System.out.printf("%16s%s\n", "Classification: ", classifyBMI(person1.calculateBMI()));
+        System.out.printf("%16s%s%n", "Full Name: ", person1.getName());
+        System.out.printf("%16s%d%n", "Age: ", person1.calculateAge());
+        System.out.printf("%16s%.2f%n", "Height: ", person1.getHeight());
+        System.out.printf("%16s%.2f%n", "Weight: ", person1.getWeight());
+        System.out.printf("%16s%s%n", "Classification: ", classifyBMI(person1.calculateBMI()));
 
         System.out.printf("\n2nd instance Output\n");
-        System.out.printf("%16s%s\n", "Full Name: ", person2.getName());
-        System.out.printf("%16s%d\n", "Age: ", person2.calculateAge());
-        System.out.printf("%16s%.2f\n", "Height: ", person2.getHeight());
-        System.out.printf("%16s%.2f\n", "Weight: ", person2.getWeight());
-        System.out.printf("%16s%s\n\n", "Classification: ", classifyBMI(person2.calculateBMI()));
+        System.out.printf("%16s%s%n", "Full Name: ", person2.getName());
+        System.out.printf("%16s%d%n", "Age: ", person2.calculateAge());
+        System.out.printf("%16s%.2f%n", "Height: ", person2.getHeight());
+        System.out.printf("%16s%.2f%n", "Weight: ", person2.getWeight());
+        System.out.printf("%16s%s%n%n", "Classification: ", classifyBMI(person2.calculateBMI()));
 
         scanner.close();
     }
