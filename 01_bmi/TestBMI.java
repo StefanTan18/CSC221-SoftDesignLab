@@ -24,10 +24,10 @@ public class TestBMI {
         if (bmi < 18.5) { // BMI is less than 18.5
             return "Underweight";
         }
-        else if (bmi < 25) { // BMI is between 18.5 and 25
+        else if (bmi <= 25) { // BMI is between 18.5 and 25
             return "Normal Weight";
         }
-        else if (bmi < 30) { // BMI is between 25 and 30
+        else if (bmi <= 30) { // BMI is between 25 and 30
             return "Overweight";
         }
         else { // BMI is greater than 30
