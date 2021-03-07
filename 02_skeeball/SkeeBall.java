@@ -112,7 +112,7 @@ public class SkeeBall {
             total += s;
         }
 
-        System.out.printf("%nTotal: %d%n", total);
+        System.out.printf("%nTotal: %d%n%n", total);
     }
     
     /**
@@ -139,8 +139,6 @@ public class SkeeBall {
             System.out.printf("Enter the number of plays (1-8)? ");
             numOfPlays = scanner.nextInt();
         }
-
-        System.out.printf("%n");    // Printing a new line for clarity
 
         // Dynamically allocated array to store the scores
         game.scores = new int[numOfPlays];
