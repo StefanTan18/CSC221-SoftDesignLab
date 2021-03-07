@@ -1,7 +1,7 @@
 import java.util.Scanner; // used Scanner to read user's inputs
 
 /**
- * The TestBMI class is uses the information provided by the user to input the
+ * The TestBMI class uses the information provided by the user to input the
  * information necessary for the PersonInfo class through the use of the Scanner class. 
  * Using the information provided by the user, TestBMI will classify the BMI as "Underweight", 
  * "Normal Weight", "OverWeight", or "Obese" and print this out along with the rest of the 
