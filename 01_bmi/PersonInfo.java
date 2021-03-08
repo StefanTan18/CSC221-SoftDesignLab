@@ -10,10 +10,17 @@ import java.util.GregorianCalendar; // used to get the current year
  */
 public class PersonInfo {
 
-    private String name; // private variable member holding the person's name as a String
-    private int yearOfBirth; // private variable member holding the person's year of birth as an int
-    private double height; // private variable member holding the person's height as a double
-    private double weight; // private variable member holding the person's weight as a double
+    // private variable member holding the person's name as a String
+    private String name;
+
+    // private variable member holding the person's year of birth as an int
+    private int yearOfBirth;
+
+    // private variable member holding the person's height as a double
+    private double height;
+
+    // private variable member holding the person's weight as a double
+    private double weight; 
 
     /**
      * This is the default constructor of the PersonInfo class and is called when the

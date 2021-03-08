@@ -12,8 +12,11 @@ import java.util.Scanner;   // used to read user's inputs
  */
 public class SkeeBall {
 
-    private static final int MAX_PLAYS = 8; // static and final member that holds the max number of plays
-    private int[] scores;   // private member array that holds the the scores for each roll
+    // static and final member that holds the max number of plays
+    private static final int MAX_PLAYS = 8;
+
+    // private member array that holds the the scores for each roll
+    private int[] scores;
 
     /**
      * This is the non-static method that generates a random number to simulate the throw of the
