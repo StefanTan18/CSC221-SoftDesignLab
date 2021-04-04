@@ -13,7 +13,7 @@ import java.util.Scanner; // used to read inputs
 public class MorseCodeConvert {
 
     // private ArrayList of MorseCodes holding all the valid characters and their coresponding encoding
-    private ArrayList<MorseCode> listCodes = new ArrayList<MorseCode>();
+    private final ArrayList<MorseCode> listCodes = new ArrayList<MorseCode>();
 
     /**
      * This is the non-default constructor that takes in a file name as a constructor and attempts to open
