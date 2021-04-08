@@ -43,7 +43,7 @@ public class SmartTV extends Screen {
         // Makes sure the other object is not null and avoids possible ClassCastException
         if (other != null && other instanceof SmartTV) {
             SmartTV smartTV = (SmartTV) other;
-            return (this.getId() == smartTV.getId() && this.getPrice() == smartTV.getPrice() && this.getModel().compareTo(smartTV.getModel()) == 0);
+            return (this.getId() == smartTV.getId() && this.getPrice() == smartTV.getPrice() && this.getModel().equals(smartTV.getModel()));
         }
         return false;
     }
