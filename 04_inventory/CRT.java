@@ -68,9 +68,8 @@ public class CRT extends ComputerMonitor {
             return true;
         }
         // Makes sure the other object is not null and avoids possible ClassCastException
-        if (other != null && other instanceof CRT) {
-            CRT crt = (CRT) other;
-            return (this.getId() == crt.getId() && this.getModel().equals(crt.getModel()));
+        if (other instanceof CRT && super.equals(other)) {
+            return this.getModel().equals(((CRT) other).getModel());
         }
         return false;
     }

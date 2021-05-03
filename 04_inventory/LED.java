@@ -35,9 +35,8 @@ public class LED extends ComputerMonitor {
             return true;
         }
         // Makes sure the other object is not null and avoids possible ClassCastException
-        if (other != null && other instanceof LED) {
-            LED led = (LED) other;
-            return (this.getId() == led.getId() && this.getPrice() == led.getPrice());
+        if (other instanceof LED && super.equals(other)) {
+            return this.getPrice() == ((LED) other).getPrice();
         }
         return false;
     }
